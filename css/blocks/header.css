@@ -1,0 +1,24 @@
+.header {
+  padding-top: 25px;
+  margin-bottom: 143px;
+  display: flex;
+  align-items: center;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  justify-content: flex-end;
+}
+.header__logo {
+  display: block;
+  margin-right: 66px;
+}
+.header__contacts {
+  top: 25px;
+  right: 0;
+}
+.services__header {
+  margin-bottom: 27px;
+}

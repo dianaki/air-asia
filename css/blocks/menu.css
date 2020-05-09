@@ -1,0 +1,20 @@
+.menu__list {
+  display: flex;
+  padding-bottom: 5px;
+}
+.menu__item {
+  margin-right: 53px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__title {
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu__title:hover {
+  color: #f5170e;
+}
+.menu__item--active .menu__title {
+  color: #f5170e;
+}
