@@ -36,7 +36,6 @@
 .paginator--theme--bold {
   color: #000000;
   font-size: 16px;
-  padding-top: 9px;
 }
 .paginator--theme--bold .paginator__link {
   font-weight: bold;
