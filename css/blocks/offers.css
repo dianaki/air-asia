@@ -1,5 +1,5 @@
 .tours {
-  margin-bottom: 138px;
+  margin-bottom: 141px;
 }
 .offers {
   display: flex;
@@ -29,7 +29,7 @@ img.offers__img {
   margin-right: 0;
 }
 .offers__content {
-  padding: 30px 23px;
+  padding: 31px 21px;
   flex: 1;
 }
 .offers__title {
