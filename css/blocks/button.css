@@ -10,7 +10,7 @@ button {
   cursor: pointer;
   outline: none;
 }
-.page-content__button, .discription-content__button {
+.page-content__button, .discription-content__button, .welcome-content__button {
   background-color: #f5170e;
   color: #ffffff;
 }
