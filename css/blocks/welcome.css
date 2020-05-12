@@ -25,17 +25,23 @@
 .welcome__content {
   text-align: center;
   position: absolute;
+  top: 222px;
+  left: 511px;
   opacity: 0;
   animation: airasia 750ms ease-in-out forwards 1s;
  }
  .welcome__logo {
   width: 279px;
   height: 119px;
-  margin-bottom: 8px;
 }
 .welcome__title {
   font-size: 18px;
-  margin-bottom: 58px;
+  margin-bottom: 54px;
+}
+.welcome-content__button {
+  background-color: #f5170e;
+  color: #ffffff;
+  padding: 17px 57px;
 }
 @keyframes airasia {
   0%, {
