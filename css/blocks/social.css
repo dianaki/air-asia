@@ -14,21 +14,22 @@
   height: 36px;
   width: 36px;
   text-decoration: none;
-  background: center center no-repeat;
   opacity: 0.2;
+  background: url("../../images/icons/socials/sprites.png"); 
+  transition: 0.5s;
 }
 .social__link:hover {
   opacity: 0.4;
 }
 .social__item--icon--telegram .social__link {
-  background-image: url("../../images/icons/socials/telegram.png");
+  background-position: -10px -66px;
 }
 .social__item--icon--vk .social__link {
-  background-image: url("../../images/icons/socials/vkontakte.png");
+  background-position: -66px -66px;
 }
 .social__item--icon--fb .social__link {
-  background-image: url("../../images/icons/socials/facebook.png");
+  background-position: -10px -10px;
 }
 .social__item--icon--instagram .social__link {
-  background-image: url("../../images/icons/socials/instagram.png");
+  background-position: -66px -10px;
 }
