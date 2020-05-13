@@ -7,9 +7,6 @@
 .dropdown__link {
   text-decoration: none;
 }
-.dropdown__link:hover {
-  text-decoration: underline;
-}
 .dropdown__triangle {
   width: 0px;
   height: 0px;
@@ -55,6 +52,9 @@
 .dropdown:hover .dropdown__triangle {
   display: block;
   position: absolute;
+}
+.dropdown:hover .dropdown__link {
+  text-decoration: underline;
 }
 .dropdown__item {
   text-align: center;
