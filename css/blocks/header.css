@@ -1,5 +1,5 @@
 .header {
-  padding-top: 25px;
+  padding-top: 23px;
   margin-bottom: 140px;
   display: flex;
   align-items: center;
@@ -19,6 +19,6 @@
   top: 25px;
   right: 0;
 }
-.services__header {
+.services__header, .reviews__header {
   margin-bottom: 27px;
 }

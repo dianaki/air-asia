@@ -2,7 +2,6 @@
   min-height: 412px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 23px;
   background: #1a1b1e url("../../images/bg/headline.jpg") right 50% top no-repeat;
  }
  .top-line__container {

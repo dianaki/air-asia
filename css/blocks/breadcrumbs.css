@@ -1,3 +1,6 @@
+.breadcrumbs {
+  margin-bottom: 24px;
+}
 .breadcrumbs__list {
   display: flex;
   align-items: center;
