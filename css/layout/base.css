@@ -1,6 +1,9 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+*:hover {
+  transition: .5s;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #001821;

@@ -57,8 +57,13 @@
   align-items: center;
   font-size: 24px;
   font-weight: bold;
-  color: #2e77a4;
+  color: #1a1b1e;
   margin-bottom: 14px;
+  text-decoration: none;
+}
+.review__user:hover {
+  color:#2e77a4;
+  text-decoration: underline;
 }
 .review__user:after {
   content: url("../../images/icons/socials/vk-blue.png");

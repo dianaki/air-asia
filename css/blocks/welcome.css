@@ -28,7 +28,7 @@
   top: 222px;
   left: 511px;
   opacity: 0;
-  animation: airasia 750ms ease-in-out forwards 1s;
+  animation: airasia .8s ease-in-out forwards 1s;
  }
  .welcome__logo {
   width: 279px;
@@ -44,21 +44,17 @@
   padding: 17px 57px;
 }
 @keyframes airasia {
-  0%, {
+  0% {
     opacity: 0;
   }
   25% {
     transform: scale(1.2);
-    opacity: 1;
   }
   50% {
     transform: scale(1);
-    opacity: 1;
   }
-  
   75% {
     transform: scale(1.1);
-    opacity: 1;
   }
   100% {
     transform: scale(1);
