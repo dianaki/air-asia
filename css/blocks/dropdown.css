@@ -16,7 +16,9 @@
   width: 153px;
   top: 145%;
   right: 0;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s, visibility 0s, linear 0.3s;
 }
 .dropdown__menu::before {
   content: "";
@@ -45,6 +47,9 @@
 .dropdown:hover .dropdown__menu {
   display: block;
   position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
 }
 .dropdown:hover .dropdown__link {
   text-decoration: underline;
