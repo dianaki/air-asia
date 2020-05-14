@@ -21,3 +21,95 @@
 @import url("../blocks/top-line.css");
 @import url("../blocks/welcome.css");
 @import url("../blocks/dropdown.css");
+
+.reviews {
+  column-count: 2;
+  column-gap: 29px;
+  margin-bottom: 80px;
+}
+.reviews__item {
+  margin-bottom: 20px;
+}
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background-color: #f4f5f5;
+}
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+}
+.avatar {
+  width: 139px;
+  height: 139px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e77a4;
+  margin-bottom: 14px;
+}
+.review__user:after {
+  content: url("../../images/icons/socials/vk-blue.png");
+  height: 29px;
+}
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 10px 16px;
+  border-radius: 50px;
+  background-color: #e7e7e7;
+}
+.tag--bg--green {
+  background-color: #b9eae4;
+}
+.review__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a1b1e;
+  margin-bottom: 29px;
+}
+.review__content-text {
+  color: #818181;
+  margin-bottom: 53px;
+}
+.review__date {
+  font-size: 14px;
+  color: #1a1b1e;
+  font-weight: 600px;
+}
+.separator {
+  background: url("../../images/bg/middleline.jpg") center center no-repeat;
+  min-height: 360px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: ;
+}
+.separator:after {
+  content: "";
+  background: url("../../images/decor/couple.png");
+  width: 487px;
+  height: 341px;
+  position: absolute;
+  top: 19px;
+  right: 60px;
+}
+.separator__content {
+  width: 50%;
+}
+.separator__title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+}
