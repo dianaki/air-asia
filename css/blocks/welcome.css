@@ -30,20 +30,7 @@
   opacity: 0;
   animation: airasia .8s ease-in-out forwards 1s;
  }
- .welcome__logo {
-  width: 279px;
-  height: 119px;
-}
-.welcome__title {
-  font-size: 18px;
-  margin-bottom: 54px;
-}
-.welcome-content__button {
-  background-color: #f5170e;
-  color: #ffffff;
-  padding: 17px 57px;
-}
-@keyframes airasia {
+ @keyframes airasia {
   0% {
     opacity: 0;
   }
@@ -60,4 +47,17 @@
     transform: scale(1);
     opacity: 1;
   }
+}
+.welcome__logo {
+  width: 279px;
+  height: 119px;
+}
+.welcome__title {
+  font-size: 18px;
+  margin-bottom: 54px;
+}
+.welcome-content__button {
+  background-color: #f5170e;
+  color: #ffffff;
+  padding: 17px 57px;
 }
