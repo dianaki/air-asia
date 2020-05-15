@@ -24,3 +24,6 @@
   font-weight: bold;
   line-height: 1.2;
 }
+span.nowrap {
+  white-space: nowrap;
+}
