@@ -4,9 +4,13 @@
 }
 .partners__item {
   margin-left: 46px;
+  margin-bottom: 28px;
 }
 .partners__item:nth-child(4n+1) {
   margin-left: 0;
+}
+.partners__item:nth-child(n+5) {
+  margin-bottom: 0;
 }
 .partners__link {
   text-decoration: none;
@@ -14,5 +18,4 @@
   width: 250px;
   height: 100px;
   align-items: center;
-  justify-content: center;
 }
