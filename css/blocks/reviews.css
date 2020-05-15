@@ -1,7 +1,6 @@
 .reviews {
   column-count: 2;
   column-gap: 29px;
-  padding-top: 100px;
   margin-bottom: 43px;
 }
 .reviews__item {

@@ -9,4 +9,7 @@
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
- }
+}
+.top-line__header {
+  margin-bottom: 27px;
+}

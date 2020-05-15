@@ -25,6 +25,7 @@ button:hover {
   background-color: #2b2b2b;
   color: #ffffff;
   border-color: #2b2b2b;
+  padding: 17px 42px;
 }
 .button--color--black:hover {
   border-color: #f5170e;

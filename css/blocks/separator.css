@@ -16,9 +16,11 @@
 }
 .separator__content {
   width: 50%;
+  padding-top: 6px;
 }
 .separator__title {
   color: #ffffff;
   font-size: 48px;
   font-weight: bold;
+  line-height: 1.2;
 }
