@@ -14,8 +14,10 @@
   border-radius: 4px;
   padding: 16px 14px;
   width: 153px;
-  top: 145%;
+  display: inline-block;
+  top: 100%;
   right: 0;
+  margin-top: 8px;
   visibility: hidden;
   opacity: 0;
   transition: opacity .5s, visibility 0s, linear 0.3s;
@@ -30,26 +32,20 @@
   height: 13px;
   right: 0;
   left: 0;
-  top: -11px;
+  bottom: 100%;
 }
 .dropdown__menu::after {
   content: "";
-  width: 0px;
-  height: 0px;
   border: 10px solid transparent;
   border-bottom-color: rgba(255, 255, 255, 0.6);
   border-top-width: 0px;
   top: -10px;
   right: 44px;
-  display: block;
   position: absolute;
 }
 .dropdown:hover .dropdown__menu {
-  display: block;
-  position: absolute;
   opacity: 1;
   visibility: visible;
-  transition-delay: 0s;
 }
 .dropdown:hover .dropdown__link {
   text-decoration: underline;

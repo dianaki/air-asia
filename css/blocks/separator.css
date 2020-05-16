@@ -12,11 +12,11 @@
   height: 341px;
   position: absolute;
   top: 19px;
-  right: 60px;
+  right: 178px;
 }
 .separator__content {
-  width: 50%;
-  padding-top: 6px;
+  width: 52%;
+  display: inline-block;
 }
 .separator__title {
   color: #ffffff;

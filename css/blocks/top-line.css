@@ -4,12 +4,6 @@
   flex-direction: column;
   background: #1a1b1e url("../../images/bg/headline.jpg") right 50% top no-repeat;
  }
- .top-line__container {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
-}
 .top-line__header {
-  margin-bottom: 27px;
+  margin-bottom: 102px;
 }
