@@ -17,6 +17,8 @@
 .separator__content {
   width: 52%;
   display: inline-block;
+  position: relative;
+  z-index: 1;
 }
 .separator__title {
   color: #ffffff;
