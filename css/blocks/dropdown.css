@@ -3,6 +3,7 @@
   color: rgba(255, 255, 255, 0.6);
   position: relative;
   display: inline-block;
+  bottom: 8px;
 }
 .dropdown__link {
   text-decoration: none;
