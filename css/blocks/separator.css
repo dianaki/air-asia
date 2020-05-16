@@ -1,30 +1,26 @@
 .separator {
   background: url("../../images/bg/middleline.jpg") center center no-repeat;
   min-height: 360px;
-  position: relative;
+  display: flex;
+  align-items: flex-end
+}
+.separator__content {
   display: flex;
   align-items: center;
 }
-.separator:after {
-  content: "";
-  background: url("../../images/decor/couple.png");
-  width: 487px;
-  height: 341px;
-  position: absolute;
-  top: 19px;
-  right: 78px;
-}
-.separator__content {
-  width: 52%;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-}
 .separator__title {
+  flex: 1;
   color: #ffffff;
   font-size: 48px;
   font-weight: bold;
   line-height: 1.2;
+}
+.separator__pic {
+  width: 487px;
+  height: 341px;
+}
+.separator__img {
+  margin-left: auto;
 }
 span.nowrap {
   white-space: nowrap;
