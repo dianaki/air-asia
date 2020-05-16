@@ -16,7 +16,9 @@
   content: "";
   max-width: 780px;
   height: 454px;
-  background: url("../../images/decor/mountains.jpg") center center / cover no-repeat;
+  background: url("../../images/decor/mountains.jpg"); 
+  background-repeat: no-repeat;
+  background-position: 100% 5%;
   border-radius: 6px;
   margin-left: -130px;
   margin-top: 108px;

@@ -32,14 +32,15 @@ p {
 }
 body, html {
   height: 100%;
+  width: 100%;
 }
 img {
   max-width: 100%;
 }
 .wrapper {
   min-height: 100%;
-  overflow: hidden;
-  min-width: 1200px;
+  width: 100%;
+  overflow-x: hidden;
 }
 .container {
   margin: 0 auto;
